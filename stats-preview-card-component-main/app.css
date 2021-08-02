@@ -3,8 +3,32 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
+.main {
+    font-weight: 700;
+    font-size: 2em;
+    color: #fff;
+}
+
 body {
+    min-height:100vh;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
+}
 
+.material {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.content {
+    background-color: hsl(233, 47%, 7%);
+    border-radius: .2em;
+}
+
+.info {
+    color:hsla(0, 0%, 100%, 0.6);
+    display: inline
+}
+
+#insg {
+    color: hsl(277, 64%, 61%);
 }
