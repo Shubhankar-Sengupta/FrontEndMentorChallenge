@@ -3,6 +3,11 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
+.spacing {
+    position: relative;
+    top:10em
+}
+
 .main {
     font-weight: 700;
     font-size: 2em;
@@ -13,6 +18,7 @@ body {
     min-height:100vh;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
+    background-color: hsl(233, 47%, 7%);
 }
 
 .material {
@@ -20,7 +26,7 @@ body {
 }
 
 .content {
-    background-color: hsl(233, 47%, 7%);
+    background-color: hsl(244, 38%, 16%);
     border-radius: .2em;
 }
 
