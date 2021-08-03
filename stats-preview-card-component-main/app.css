@@ -16,46 +16,37 @@ body {
 
 
 .spacing {
-
     padding: 0px;
     position: relative;
     top:10em
-    
 }
 
 .spacing1 {
-
     line-height: 4em;
-
 }
 
 .main {
-
     font-weight: 700;
     font-size: 2em;
     color: #fff;
 }
 
 .material {
-
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 2em;
 }
 
 .content {
-
     background-color: hsl(244, 38%, 16%);
     border-radius: .4em;
 }
 
 .info {
-
     color:hsla(0, 0%, 100%, 0.6);
     display: inline
 }
 
 div.info  p {
-
     color:#fff;
     font-size: 1.7em;
     font-weight: 600;
@@ -63,9 +54,22 @@ div.info  p {
 
 }
 
+.saturate {filter: saturate(3); }
+
 
 div.info div {
     display: inline-block;
     padding-right: 1.2em;
     line-height: 2.5em;
 }
+
+
+@media (min-width:768px) and (max-width: 992px) {
+    section {
+        
+    }
+}
+
+/* @media (max-width: 500px) {
+
+} */
