@@ -40,7 +40,7 @@ body {
 
 .content {
     background-color: hsl(244, 38%, 16%);
-    border-radius: .3em;
+    border-radius: .4em;
 }
 
 .info {
@@ -135,7 +135,7 @@ div.info div {
 }
 
 
-@media (max-width:280px) {
+@media (max-width:320px) {
 
     div.info div {
         padding-left: 25px;
