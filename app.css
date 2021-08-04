@@ -11,8 +11,7 @@ body {
 
 .attribution { font-size: 12px; text-align: center; }
 
-.attribution a { color: hsl(228, 45%, 44%); }
-
+.attribution a { color: hsl(228, 45%, 44%);}
 
 .spacing {
 
@@ -79,9 +78,17 @@ div.info div {
         padding-left: 25px;
     }
 
+    .set {
+        height: 104px;
+    }
+
 }
 
 @media (max-width:767px) {
+
+    .set {
+        height: 394px;
+    }
 
     .spacing {
         padding: 2.5em;
