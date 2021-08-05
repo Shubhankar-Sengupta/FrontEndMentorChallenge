@@ -9,16 +9,18 @@ body {
     color: hsl(277, 64%, 61%);
 }
 
-.attribution { font-size: 12px; text-align: center; }
+.visible {
+    color: #fff;
+}
 
-.attribution a { color: hsl(228, 45%, 44%);}
+.attribution {font-size: 12px; text-align: center;}
+
+.attribution a {color: hsl(228, 45%, 44%);}
 
 .spacing {
-
     padding: 0px;
     position: relative;
     top:10em;
-
 }
 
 .spacing1 {
@@ -41,13 +43,20 @@ body {
 
 .content {
     background-color: hsl(244, 38%, 16%);
-    border-radius: .4em;
+    border-radius: .45em;
 }
 
 .info {
     color:hsla(0, 0%, 100%, 0.6);
     display: inline;
 }
+
+
+.set {
+    content: url('./images/image-header-desktop.jpg');
+    height: 341px;
+    mix-blend-mode: luminosity;
+ }
     
 
 div.info {
@@ -78,17 +87,9 @@ div.info div {
         padding-left: 25px;
     }
 
-    .set {
-        height: 104px;
-    }
-
 }
 
 @media (max-width:767px) {
-
-    .set {
-        height: 394px;
-    }
 
     .spacing {
         padding: 2.5em;
@@ -150,7 +151,7 @@ div.info div {
     margin-top: 2em;
     }
 
-    #medCng {
+    .set {
         height: 279px;
     }
 
